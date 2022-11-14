@@ -52,6 +52,32 @@
   font-size: 2.2rem;
   background-color: rgb(213, 211, 213);
 }
+.page-container .right-container #choosen-student {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+@-webkit-keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .page-container .right-container #btn-activator {
   height: 50px;
   width: 300px;
